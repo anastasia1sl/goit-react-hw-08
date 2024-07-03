@@ -1,0 +1,22 @@
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactText {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  float: right;
+  align-self: center;
+  margin-top: 10px;
+  background-color: #3d3d3d2d;
+  border: solid 1px black;
+}

@@ -1,0 +1,20 @@
+.contactsList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contactsItem {
+  box-sizing: border-box;
+  width: 330px;
+  height: 95px;
+
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.contactsItem:not(:last-child) {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+.userBox button {
+  color: white;
+  font-size: 16px;
+
+  padding: 10px 15px;
+  border: solid 1px white;
+  border-radius: 18px;
+
+  background-color: #4cae4c;
+
+  display: flex;
+  cursor: pointer;
+}
+
+.userBox p {
+  font-size: 16px;
+  color: white;
+  display: flex;
+}
+
+.userBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}

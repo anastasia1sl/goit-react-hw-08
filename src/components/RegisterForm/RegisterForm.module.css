@@ -1,35 +1,33 @@
 .formBox {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .form {
+  box-sizing: border-box;
   background-color: #fff;
   padding: 20px 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
+  /* width: 100%;
+  max-width: 400px; */
+  width: 400px;
+  height: 340px;
   display: flex;
   flex-direction: column;
 }
-
-.formName,
-.formNumber {
-  margin-bottom: 15px;
-}
-
 .form label {
   margin-bottom: 5px;
   color: #555;
 }
 
-.form .field {
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
   padding: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
   width: 100%;
@@ -39,19 +37,16 @@
 .form button {
   padding: 10px;
   border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
   background-color: #5cb85c;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px;
 }
 
 .form button:hover {
   background-color: #4cae4c;
-}
-span {
-  margin-left: 12px;
-  color: red;
 }

@@ -1,0 +1,17 @@
+.error {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.homeBtn {
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+  color: #4cae4c;
+}
+
+.relocateBox {
+  margin-top: 30px;
+  margin-left: 30px;
+}

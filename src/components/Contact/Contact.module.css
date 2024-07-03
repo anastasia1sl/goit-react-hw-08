@@ -9,14 +9,23 @@
   font-weight: 500;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .button {
-  display: flex;
-  float: right;
-  align-self: center;
-  margin-top: 10px;
-  background-color: #3d3d3d2d;
-  border: solid 1px black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5cb85c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4cae4c;
+}
+p {
+  margin: 3px;
 }

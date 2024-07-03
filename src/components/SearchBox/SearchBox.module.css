@@ -1,21 +1,25 @@
-.searchBox {
-  box-sizing: border-box;
-  width: 330px;
-  height: 35px;
-  border-radius: 4px;
-  border: 1px solid grey;
-  outline: transparent;
-
-  padding-left: 10px;
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .searchBoxText {
   font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
-p {
-  padding: 0;
-  margin: 0;
+.searchBox {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.searchBox:focus {
+  outline: none;
+  border-color: #5cb85c;
 }

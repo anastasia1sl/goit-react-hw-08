@@ -1,4 +1,4 @@
-import { createSlice, nanoid } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import {
   addContactOperation,
   deleteContactOperation,
@@ -32,7 +32,7 @@ const contactsSlice = createSlice({
         state.error = false;
       })
       .addCase(addContactOperation.fulfilled, (state, action) => {
-        state.items.push({ ...action.payload, id: nanoid() });
+        state.items.push({ ...action.payload });
         state.loading = false;
       })
       .addCase(addContactOperation.rejected, (state, action) => {

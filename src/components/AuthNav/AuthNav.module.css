@@ -1,0 +1,17 @@
+.navBox {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
+
+.navLink {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+
+  padding: 10px 15px;
+  border: solid 1px white;
+  border-radius: 18px;
+
+  background-color: #4cae4c;
+}

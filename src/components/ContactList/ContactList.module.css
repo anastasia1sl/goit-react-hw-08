@@ -1,20 +1,23 @@
 .contactsList {
-  list-style: none;
+  list-style-type: none;
+  padding: 0;
+
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
 }
 
 .contactsItem {
-  box-sizing: border-box;
-  width: 330px;
-  height: 95px;
-
-  border: solid 2px black;
-  border-radius: 4px;
   padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  width: 330px;
 }
 
-.contactsItem:not(:last-child) {
-  margin-bottom: 10px;
+.contactsItem:hover {
+  background-color: #e0e0e0;
 }
